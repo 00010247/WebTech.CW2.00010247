@@ -1,0 +1,14 @@
+extends layout.pug
+
+block content
+    .container
+        h1 Create blog
+
+        form.form(action="create" method="POST")
+            label Title
+            input.input(type="text" name='title')
+
+            label Body
+            textarea.input(type="text" name="body")
+
+            button.btn Create blog
