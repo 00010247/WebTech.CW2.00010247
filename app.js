@@ -41,10 +41,20 @@ app.post('/create', (req, res) => {
             })
         } )
     }
-
-
     res.render('create')
 })
+
+app.get('/api/v1/blogs', (req, res) => {
+    fs.readFile('./data/blogs.json', (err, data) => {
+        if (err) throw err
+
+        const blogs = JSON.parse(data)
+
+        res.json(blogs)
+    })
+    }
+)
+
 
 app.get('/create', (req, res) => {
     res.render('create')
