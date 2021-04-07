@@ -7,18 +7,26 @@ app.use('/static', express.static('public'))
 
 //localhost:8000
 app.get('/', (req, res) => {
-res.render('home')
+    res.render('home')
 })
 app.get('/create', (req, res) => {
     res.render('create')
 })
 
-
 const blogs = ['Some awesome title', 'lorem ipsum']
 
 app.get('/blogs', ((req, res) => {
-    res.render('blogs', { blogs: blogs})
+    res.render('blogs', {blogs: blogs})
 }))
+
+
+app.get('/blogs/detail', (req, res) => {
+    res.render('detail')
+})
+
+
+
+
 app.listen(8000, err => {
     if (err) console.log(err)
 
