@@ -78,9 +78,12 @@ app.get('/blogs/:id', (req, res) => {
         if (err) throw err
 
         const blogs = JSON.parse(data)
+
+        const blogExtended = blogs.filter( blogExtended => blog.id == id) [0]
+
         res.render('detail', {blogs: blogs})
 
-        const blog = blogs.filter(blog => blog.id == id)[0]
+
 
 
 
