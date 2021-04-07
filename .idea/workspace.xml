@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c3b81f2-0e1e-4943-8844-62fc93ea368a" name="Default Changelist" comment="for single blog read some code is written">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5c3b81f2-0e1e-4943-8844-62fc93ea368a" name="Default Changelist" comment="readme is added">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,7 @@
       <workItem from="1617627424181" duration="482000" />
       <workItem from="1617793333495" duration="332000" />
       <workItem from="1617793684648" duration="6325000" />
-      <workItem from="1617817822586" duration="1859000" />
+      <workItem from="1617817822586" duration="2175000" />
     </task>
     <task id="LOCAL-00001" summary="layouts were coded and some design was implemented for layouts">
       <created>1617793588534</created>
@@ -113,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617819334856</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="readme is added">
+      <created>1617819865212</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1617819865212</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +154,8 @@
     <MESSAGE value="pug file front end side is created to showthe detailed blog" />
     <MESSAGE value="template database is created and form inputs can be collected to the json file" />
     <MESSAGE value="for single blog read some code is written" />
-    <option name="LAST_COMMIT_MESSAGE" value="for single blog read some code is written" />
+    <MESSAGE value="readme is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme is added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1628" y="154" key="#Inspections" timestamp="1617800957140">

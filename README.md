@@ -26,4 +26,4 @@ node app
 - pug.js
 
 ### Public repository of project
-https://github.com/00010247/WebTech.CW2.00010247
+[link to github repo](https://github.com/00010247/WebTech.CW2.00010247)
