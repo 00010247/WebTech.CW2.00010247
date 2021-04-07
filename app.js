@@ -12,6 +12,13 @@ res.render('home')
 app.get('/create', (req, res) => {
     res.render('create')
 })
+
+
+const blogs = ['Some awesome title', 'lorem ipsum']
+
+app.get('/blogs', ((req, res) => {
+    res.render('blogs', { blogs: blogs})
+}))
 app.listen(8000, err => {
     if (err) console.log(err)
 
